@@ -32,7 +32,7 @@ const NavBar = ({ handleClose, isOpen }) => {
                   onClick={handleClose}
                   key={item.name}
                 >
-                  <div className="text-blue-200">{item.name}</div>
+                  <div className="text-green-200">{item.name}</div>
                 </Link>
               </li>
             </div>
