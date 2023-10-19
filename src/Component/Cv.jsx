@@ -1,4 +1,4 @@
-import cv from '../assets/CURRICULUM VITAE SEGUN.pdf'
+import cv from '../assets/Olayiwola Salaudeen CURRICULUM VITAE .pdf'
 import Aos from "aos";
 import { useEffect } from "react";
 const Cv = () => {

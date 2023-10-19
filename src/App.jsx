@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <div className="">
+      <div id="body" className="">
         <div className="bg-lightBg fixed w-full top-0 z-[100000] ">
           <div>
             <img src="" alt="" />
@@ -38,7 +38,7 @@ function App() {
         </div>
         <div className="text-green-200 cursor-pointer text-[1rem] lg:hidden transition duration-[0.8s]">
           <Nav isOpen={isOpen} handleClose={toggleIsOpen} />
-          <div className="flex lg:block justify-between bg-green-800 ">
+          <div className="flex lg:block justify-between bg-green-800 relative top-0" >
             <img src={image1}  alt="" className="w-[65px] lg:hidden rounded-full my-4 ms-5" />
             <FaBars onClick={toggleIsOpen} className="w-10 my-auto" />
           </div>
