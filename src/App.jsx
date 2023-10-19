@@ -14,7 +14,8 @@ import Project from "./Component/Project";
 import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
 import "./index.css";
-import image1 from "./assets/WhatsApp Image 2023-10-16 at 11.58.25_34eeb5d1.jpg"
+import image1 from "./assets/WhatsApp Image 2023-10-16 at 11.58.25_34eeb5d1.jpg";
+import ContactButtons from "./Component/ContactButtons";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -38,11 +39,16 @@ function App() {
         </div>
         <div className="text-green-200 cursor-pointer text-[1rem] lg:hidden transition duration-[0.8s]">
           <Nav isOpen={isOpen} handleClose={toggleIsOpen} />
-          <div className="flex lg:block justify-between bg-green-800 relative top-0" >
-            <img src={image1}  alt="" className="w-[65px] lg:hidden rounded-full my-4 ms-5" />
+          <div className="flex lg:block justify-between bg-green-800 w-full fixed z-50">
+            <img
+              src={image1}
+              alt=""
+              className="w-[65px] lg:hidden rounded-full my-4 ms-5"
+            />
             <FaBars onClick={toggleIsOpen} className="w-10 my-auto" />
           </div>
         </div>
+        <ContactButtons />
         <Hero />
         <About />
         <Card />

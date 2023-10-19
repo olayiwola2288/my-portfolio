@@ -7,3 +7,8 @@
 #body{
     overflow-x: hidden;
 }
+   #icon{
+        position: absolute;
+        top: 55%;
+        display: flex;
+    }

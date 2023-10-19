@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import img from "../../src/assets/team.png";
-import { AiFillGithub } from "react-icons/ai";
-import { RiTwitterXLine } from "react-icons/ri";
-import { FaFacebookMessenger } from "react-icons/fa";
+
 // import axios from "axios";
 import Aos from "aos";
 import { useState } from "react";
@@ -34,21 +32,8 @@ const Contact = () => {
   // };
 
   return (
-    <div data-aos="flip-up" id="Contact" className="bg-black lg:flex">
-      <div className="lg:mt-32 lg:flex lg:flex-col sm:flex flex-row ">
-        <a href="https://github.com/olayiwola2288">
-          <AiFillGithub className=" ms-10 text-white me-19" size={36} />
-        </a>
-        <a href="https://www.messenger.com/t/696213910773745">
-          <FaFacebookMessenger
-            className="mt-5 ms-10 text-white me-19"
-            size={36}
-          />
-        </a>
-        <a href="https://twitter.com/home">
-          <RiTwitterXLine className="ms-10 text-white mt-10" size={36} />
-        </a>
-      </div>
+    <div data-aos="flip-up" id="Contact" className="bg-green-950 lg:flex">
+
       <div className="grid lg:grid-cols-2">
         <div className=" mt-10 lg:ms-28 ms-8">
           <div className="text-white">CONTACT ME</div>
