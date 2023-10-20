@@ -5,7 +5,7 @@ const ContactButtons = () => {
   return (
     <div>
       {" "}
-      <div className="lg:mt-32 lg:flex lg:flex-col sm:flex flex-row space-y-5 left-5 bottom-5 md:bottom-1/2 bg-gray-200 p-3 rounded fixed z-[1000]">
+      <div className="lg:mt-32  space-y-5 left-5 bottom-5  bg-gray-200 p-3 rounded fixed z-[1000]">
         <div>
           {" "}
           <a href="https://github.com/olayiwola2288">

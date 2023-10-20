@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import img from "../../src/assets/team.png";
 
-// import axios from "axios";
+import axios from "axios";
 import Aos from "aos";
 import { useState } from "react";
 
@@ -17,23 +17,22 @@ const Contact = () => {
     });
   }, []);
 
-  // let endpoint = "http://localhost:3300/help";
-  // const get = () => {
-  //   let data = { fullName, email, organization, message };
-  //   console.log(data);
-  //   axios
-  //     .post(endpoint, data)
-  //     .then((response) => {
-  //       console.log(response);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
+  let endpoint = "http://localhost:5500/help";
+  const get = () => {
+    let data = { fullName, email, organization, message };
+    console.log(data);
+    axios
+      .post(endpoint, data)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <div data-aos="flip-up" id="Contact" className="bg-green-950 lg:flex">
-
       <div className="grid lg:grid-cols-2">
         <div className=" mt-10 lg:ms-28 ms-8">
           <div className="text-white">CONTACT ME</div>
@@ -91,7 +90,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <button
-            // onClick={get}
+            onClick={get}
             className="text-white w-80 rounded font-bold bg-red-500 p-2"
           >
             Send Message
