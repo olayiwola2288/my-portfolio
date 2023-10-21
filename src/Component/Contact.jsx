@@ -11,6 +11,7 @@ const Contact = () => {
   const [organization, setOrganization] = useState("");
   const [message, setMessage] = useState("");
 
+
   useEffect(() => {
     Aos.init({
       duration: 3000,
@@ -18,17 +19,30 @@ const Contact = () => {
   }, []);
 
   let endpoint = "http://localhost:5500/help";
+
+
   const get = () => {
-    let data = { fullName, email, organization, message };
-    console.log(data);
-    axios
-      .post(endpoint, data)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+
+    if (fullName=="" || email =="" || organization =="" || message =="") {
+      alert("Please fill all the fields");
+    }else{
+
+      let data = { fullName, email, organization, message };
+      console.log(data);
+      axios
+        .post(endpoint, data)
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+  
+          setFullname("");
+          setEmail("");
+          setOrganization("");
+          setMessage("");
+    }
   };
 
   return (
@@ -38,7 +52,7 @@ const Contact = () => {
           <div className="text-white">CONTACT ME</div>
           <div className="my-2 w-80">
             <label className="text-white" htmlFor="">
-              Fullname
+              Full name
             </label>{" "}
             <br />
             <input

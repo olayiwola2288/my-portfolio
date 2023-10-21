@@ -19,8 +19,8 @@ export const info = [
         icon:<FaCode/>
     },
     {
-        name:"contract",
-        link:"contract",
+        name:"contact",
+        link:"Contact",
         icon:<AiFillContacts/>
     },
     {
