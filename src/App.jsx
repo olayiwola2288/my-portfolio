@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import NavBarDex from "./Component/NavBarDex";
 import { FaBars } from "react-icons/fa";
-import Nav from "./component/Nav";
+import Nav from "./Component/Nav";
 import Hero from "./Component/Hero";
 import About from "./Component/About";
 import Card from "./Component/Card";
