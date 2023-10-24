@@ -1,6 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaFacebookMessenger } from "react-icons/fa";
+import {BiLogoWhatsapp} from "react-icons/bi";
 const ContactButtons = () => {
   return (
     <div>
@@ -15,8 +16,8 @@ const ContactButtons = () => {
 
         <div>
           {" "}
-          <a href="https://www.messenger.com/t/696213910773745">
-            <FaFacebookMessenger className="text-dark " size={36} />
+          <a href="https://wa.me/2348168863456">
+            <BiLogoWhatsapp className="text-dark " size={36} />
           </a>
         </div>
         <div>
