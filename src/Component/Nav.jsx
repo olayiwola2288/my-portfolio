@@ -1,6 +1,7 @@
-import {info} from "./NavList";
+import { info } from "./NavList";
 import { Link } from "react-scroll";
 import { AiOutlineClose } from "react-icons/ai";
+import React, { PureComponent } from "react";
 
 const Nav = ({ handleClose, isOpen }) => {
   return (
@@ -40,5 +41,4 @@ const Nav = ({ handleClose, isOpen }) => {
     </div>
   );
 };
-
 export default Nav;
