@@ -18,7 +18,7 @@ const Contact = () => {
     });
   }, []);
 
-  let endpoint = "http://localhost:5500/help";
+  let endpoint = "https://my-portfolio-backend-seven.vercel.app/help";
 
 
   const get = () => {
