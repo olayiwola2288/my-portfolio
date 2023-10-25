@@ -43,7 +43,7 @@ export const ProjectList = [
   {
     image: img5,
     title: "Pizza Menu App",
-    gitlink: "https://fast-pizza-6bo8pjbuv-olayiwola2288.vercel.app/",
+    gitlink: "https://salaudeen-fastpizza.vercel.app/",
     content:
       "Pizza Menu App: Your one-stop slice of pizza heaven. Explore a delectable array of pizza options, customize your perfect pie, and order for dine-in or delivery in a snap. For pizza lovers, by pizza lovers.",
   },

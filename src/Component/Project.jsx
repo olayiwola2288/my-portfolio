@@ -23,7 +23,7 @@ const Project = () => {
       </div>
       <div
         data-aos="flip-left"
-        className="card text-white lg:ms-10 ms-6 lg:grid grid-cols-3  text-gray-900 gap-5 mb-10"
+        className="card text-white lg:ms-10 ms-6 lg:grid grid-cols-3 gap-5 mb-10"
         id="Project"
       >
         {ProjectList.map((item, index) => (
