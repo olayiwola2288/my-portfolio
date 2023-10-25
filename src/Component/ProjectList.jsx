@@ -15,7 +15,7 @@ export const ProjectList = [
   {
     image: img1,
     title: "Traveling packing items App",
-    gitlink: "https://travel-list-theta-red.vercel.app/",
+    gitlink: "https://travel-list-wine-six.vercel.app/",
     content:
       "Simplify your travels with our Packing App. Create custom packing lists for each trip. Pack efficiently, never forget essentials. Travel hassle-free ",
   },
