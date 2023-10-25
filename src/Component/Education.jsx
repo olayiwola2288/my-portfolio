@@ -21,7 +21,7 @@ const Education = () => {
             <RiGraduationCapLine size={35} />
           </div>
         </div>
-        <div className="text-gray-600 lg:flex my-5 text-center ">
+        <div className="text-gray-600 lg:flex my-5 text-center">
           {education.map((item, index) => (
             <div id="Education" className="lg:mx-auto rounded shadow lg:px-4 lg:pb-5 mx-5 hover:bg-slate-200 py-3 mt-2 " key={index}>
               <img
