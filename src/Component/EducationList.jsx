@@ -4,14 +4,14 @@ export const education = [
   {
     img: img1,
     School: "The Oke-ogun Polytechnic Saki",
-    Programme: "National Diploma in   Quality Surveying",
+    Programme: "National Diploma in   Quantity Surveying",
     Year: "2015 - 2017",
   },
 
   {
     img: img1,
     School: "The Oke-ogun Polytechnic Saki",
-    Programme: "Higher National Diploma in   Quality Surveying",
+    Programme: "Higher National Diploma in   Quantity Surveying",
     Year: "2018 - 2020",
   },
   
@@ -19,6 +19,7 @@ export const education = [
     img: img,
     School: "SQI College Of ICT",
     Programme: "Full Stack Development",
-    Year: "January 2023 - September 2023",
+    Year: "January 2023 - December 2023",
   },
 ];
+
